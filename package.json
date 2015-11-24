@@ -1,0 +1,98 @@
+{
+  "name": "Supermodular",
+  "version": "2.11.0",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "cordova": "^5.3.3",
+    "elementtree": "0.1.6",
+    "glob": "~4.3.5",
+    "grunt": "~0.4.5",
+    "grunt-autoprefixer": "~2.2.0",
+    "grunt-concurrent": "1.0.0",
+    "grunt-contrib-clean": "~0.6.0",
+    "grunt-contrib-concat": "~0.5.0",
+    "grunt-contrib-connect": "~0.9.0",
+    "grunt-contrib-copy": "~0.7.0",
+    "grunt-contrib-cssmin": "~0.11.0",
+    "grunt-contrib-htmlmin": "~0.3.0",
+    "grunt-contrib-jshint": "~0.11.0",
+    "grunt-contrib-sass": "^0.9.2",
+    "grunt-contrib-uglify": "~0.7.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-include-source": "^0.5.1",
+    "grunt-karma": "~0.10.1",
+    "grunt-newer": "~1.1.0",
+    "grunt-ng-annotate": "~0.9.2",
+    "grunt-ng-constant": "^1.0.0",
+    "grunt-usemin": "~3.0.0",
+    "grunt-wiredep": "^2.0.0",
+    "ionic": "^1.7.6",
+    "jshint-stylish": "~1.0.0",
+    "karma": "~0.12.31",
+    "karma-chai": "~0.1.0",
+    "karma-chrome-launcher": "~0.1.7",
+    "karma-coverage": "~0.2.7",
+    "karma-mocha": "~0.1.10",
+    "karma-phantomjs-launcher": "~0.1.4",
+    "load-grunt-tasks": "~3.1.0",
+    "lodash": "~3.1.0",
+    "mkdirp": "~0.5.0",
+    "ncp": "~1.0.1",
+    "orchestrator": "~0.3.7",
+    "plist": "1.1.0",
+    "ripple-emulator": "~0.9.24",
+    "time-grunt": "~1.0.0",
+    "win-spawn": "^2.0.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "grunt test",
+    "postinstall": "./install.sh"
+  },
+  "cordovaPlatforms": [
+    "ios"
+  ],
+  "cordovaPlugins": [
+    "org.apache.cordova.device",
+    "org.apache.cordova.console",
+    "com.ionic.keyboard",
+    "org.apache.cordova.inappbrowser",
+    {
+      "locator": "https://github.com/phonegap-build/PushPlugin.git",
+      "id": "com.phonegap.plugins.PushPlugin"
+    },
+    {
+      "locator": "https://github.com/katzer/cordova-plugin-email-composer.git",
+      "id": "de.appplant.cordova.plugin.email-composer"
+    },
+    "cordova-plugin-geolocation",
+    {
+      "locator": "https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin.git",
+      "id": "nl.x-services.plugins.socialsharing"
+    },
+    {
+      "locator": "https://github.com/keosuofficial/cordova-audio-stream-plugin.git",
+      "id": "com.keosu.cordova.stream"
+    },
+    "cordova-plugin-network-information",
+    "cordova-plugin-whitelist",
+    {
+      "locator": "https://github.com/pushandplay/cordova-plugin-apprate.git",
+      "id": "org.pushandplay.cordova.apprate"
+    },
+    {
+      "locator": "https://github.com/floatinghotpot/cordova-plugin-admob.git",
+      "id": "cordova-plugin-admob"
+    },
+    "cordova-plugin-camera",
+    "cordova-plugin-transport-security",
+    {
+      "locator": "https://github.com/litehelpers/Cordova-sqlite-storage.git",
+      "id": "cordova-sqlite-storage"
+    },
+    "org.apache.cordova.console"
+  ]
+}

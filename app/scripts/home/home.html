@@ -1,0 +1,61 @@
+<ion-view view-title="Home">
+	<ion-content>
+		<div class="home-hello">
+			<img src="http://lorempixel.com/1024/768/"/>
+			<div class="item item-text-wrap">
+				<h1>ABC Corp Inc.</h1>
+				50 Market Street, San Francisco, California 94103, United States
+			</div>
+		</div>
+
+		<!--
+		 | http://stackoverflow.com/questions/27239735/ionic-framwork-gridlayout-with-multiple-rows-and-column-on-which-buttons-placed
+		 | http://stackoverflow.com/questions/23779773/angularjs-loops-and-formatting/23780288#23780288
+		 -->
+		<div ng-repeat="e in vm.entries" ng-if="$index%2==0" class="row">
+
+			<div class="card col home">
+				<a class="item item-text-wrap" href="#/app/{{vm.entries[$index].path}}">
+					<h1><i class="icon {{vm.entries[$index].icon}}"></i></h1>
+					<h2>{{vm.entries[$index].title}}</h2>
+				</a>
+			</div>
+
+			<div class="card col home">
+				<a class="item item-text-wrap" href="#/app/{{vm.entries[$index + 1].path}}">
+					<h1><i class="icon {{vm.entries[$index + 1].icon}}"></i></h1>
+					<h2>{{vm.entries[$index + 1].title}}</h2>
+				</a>
+			</div>
+
+		</div>
+
+		<div class="list card">
+			<a href="tel:{{vm.phoneNumber}}" class="item item-icon-left">
+				<i class="icon ion-ios-telephone"></i>
+				Call us
+			</a>
+
+			<a class="item item-icon-left" ng-click="vm.sendEmail()">
+				<i class="icon ion-email"></i>
+				Send us and Email
+			</a>
+
+			<a href="#" class="item item-icon-left" ng-click="vm.getDirections()">
+				<i class="icon ion-compass"></i>
+				Find us / Get directions
+			</a>
+
+			<a ng-click="vm.openFacebookPage()" class="item item-icon-left">
+				<i class="icon ion-social-facebook"></i>
+				Visit us on Facebook
+			</a>
+
+			<a ng-click="vm.rateThisAppNow()" class="item item-icon-left">
+				<i class="icon ion-ios-star"></i>
+				Rate this App
+			</a>
+		</div>
+
+	</ion-content>
+</ion-view>

@@ -1,0 +1,164 @@
+{
+	"id": 1,
+	"jsonrpc": "2.0",
+	"total": 6,
+	"result": [
+		{
+			"id": 1,
+			"guid": "1d4aa3b2-c059-4fa7-a751-9bca735e4ebb",
+			"thumb": "http://skounis.s3.amazonaws.com/mobile-apps/barebone-ionic/item-01-thumb.jpg",
+			"title": "Mozzarella sticks",
+			"body": "Extra delicious Mozzarella cheese sticks, mixed with zucchini and potatoes coated with flavorful herbs. Served with a side of marinara sauce for dipping.",
+			"tags": ["mozzarella", "sticks"],
+			"url" : "http://demo.morethanthemes.com/retailplus/commerce-default/node/9",
+			"currency": "£",
+			"price" : "11.00",
+			"pictures": [
+				"http://skounis.s3.amazonaws.com/mobile-apps/barebone-ionic/item-01-1.jpg"
+			]
+		}, {
+			"id": 2,
+			"guid": "6630fb89-94d6-4fec-a1c3-c48d80b88895",
+			"thumb": "http://skounis.s3.amazonaws.com/mobile-apps/barebone-ionic/item-02-thumb.jpg",
+			"title": "Cheesy Rosemary Monkey Bread Rolls",
+			"body": "Rosemary, garlic and cheese make these monkey bread rolls perfect with any meal.",
+			"tags": ["bread", "rosemary"],
+			"url" : "http://demo.morethanthemes.com/retailplus/commerce-default/node/10",
+			"currency": "£",
+			"price" : "11.00",
+			"pictures": [
+				"http://skounis.s3.amazonaws.com/mobile-apps/barebone-ionic/item-02-1.jpg"
+			]
+		}, {
+			"id": 3,
+			"guid": "861d3f45-28ce-4b10-80e5-e98fafee4d4f",
+			"thumb": "http://skounis.s3.amazonaws.com/mobile-apps/barebone-ionic/item-03-thumb.jpg",
+			"title": "Sticks variety",
+			"body": "A variety of vegetable and beef sticks will keep the balance for a healthy yet tasteful starter.",
+			"tags": ["sticks", "beef", "vegetables"],
+			"url" : "http://demo.morethanthemes.com/retailplus/commerce-default/node/11",
+			"currency": "£",
+			"price" : "18.00",
+			"pictures": [
+				"http://skounis.s3.amazonaws.com/mobile-apps/barebone-ionic/item-03-1.jpg"
+			]
+		}, {
+			"id": 4,
+			"guid": "205f2dd0-35e8-450c-9577-bb71be487fe7",
+			"thumb": "http://skounis.s3.amazonaws.com/mobile-apps/barebone-ionic/item-04-thumb.jpg",
+			"title": "Espresso coffee",
+			"body": "Classic italian espresso  made with blends of 80% arabica and 20% robusta. Served with cinnamon cookies.",
+			"tags": ["coffee", "espresso"],
+			"url" : "http://demo.morethanthemes.com/retailplus/commerce-default/node/12",
+			"currency": "£",
+			"price" : "7.00",
+			"pictures": [
+				"http://skounis.s3.amazonaws.com/mobile-apps/barebone-ionic/item-04-1.jpg"
+			]
+		}, {
+			"id": 5,
+			"guid": "4e0d6228-1ffc-46d4-ba68-22454728dd37",
+			"thumb": "http://skounis.s3.amazonaws.com/mobile-apps/barebone-ionic/item-05-thumb.jpg",
+			"title": "Plum layered dessert",
+			"body": "A delicious dessert which is low in both fat and sugar.",
+			"tags": ["plum"],
+			"url" : "http://demo.morethanthemes.com/retailplus/commerce-default/node/13",
+			"currency": "£",
+			"price" : "9.00",
+			"pictures": [
+				"http://skounis.s3.amazonaws.com/mobile-apps/barebone-ionic/item-05-1.jpg"
+			]
+		}, {
+			"id": 6,
+			"guid": "b3119483-5125-4f6c-89a3-849ebc732447",
+			"thumb": "http://skounis.s3.amazonaws.com/mobile-apps/barebone-ionic/item-06-thumb.jpg",
+			"title": "Chocolate, raspberry and vanilla cake",
+			"body": "Cake with almond sponge, raspberry coulis and raspberry sorbet.",
+			"tags": ["cake", "raspberry", "Chocolate"],
+			"url" : "http://demo.morethanthemes.com/retailplus/commerce-default/node/14",
+			"currency": "£",
+			"price" : "7.00",
+			"pictures": [
+				"http://skounis.s3.amazonaws.com/mobile-apps/barebone-ionic/item-06-1.jpg"
+			]
+		}, {
+			"id": 7,
+			"guid": "b3119483-5125-4f6c-89a3-849ebc732447",
+			"thumb": "http://skounis.s3.amazonaws.com/mobile-apps/barebone-ionic/item-07-thumb.jpg",
+			"title": "Strawberry heaven",
+			"body": "Crispy base  smothered with a layer of light  mousse is then perfectly complemented by a layer of dreamy strawberry puree.",
+			"tags": ["strawberry", "layered"],
+			"url" : "http://demo.morethanthemes.com/retailplus/commerce-default/node/14",
+			"currency": "£",
+			"price" : "9.00",
+			"pictures": [
+				"http://skounis.s3.amazonaws.com/mobile-apps/barebone-ionic/item-07-1.jpg"
+			]
+		}, {
+			"id": 8,
+			"guid": "b3119483-5125-4f6c-89a3-849ebc732447",
+			"thumb": "http://skounis.s3.amazonaws.com/mobile-apps/barebone-ionic/item-08-thumb.jpg",
+			"title": "Mix of meat",
+			"body": "Filets and sausages served with herb roasted potatoes and roasted vegetables seasoned with rosemary and thyme.",
+			"tags": ["filet", "sausage", "red meat"],
+			"url" : "http://demo.morethanthemes.com/retailplus/commerce-default/node/14",
+			"currency": "£",
+			"price" : "21.00",
+			"pictures": [
+				"http://skounis.s3.amazonaws.com/mobile-apps/barebone-ionic/item-08-1.jpg"
+			]
+		}, {
+			"id": 9,
+			"guid": "b3119483-5125-4f6c-89a3-849ebc732447",
+			"thumb": "http://skounis.s3.amazonaws.com/mobile-apps/barebone-ionic/item-09-thumb.jpg",
+			"title": "Handmade burgers",
+			"body": "The beef we source for our burgers is sourced from Aberdeenshire a we just love the distinctive flavour and quality.",
+			"tags": ["burger", "beef", "handmade"],
+			"url" : "http://demo.morethanthemes.com/retailplus/commerce-default/node/14",
+			"currency": "£",
+			"price" : "16.00",
+			"pictures": [
+				"http://skounis.s3.amazonaws.com/mobile-apps/barebone-ionic/item-09-1.jpg"
+			]
+		}, {
+			"id": 10,
+			"guid": "b3119483-5125-4f6c-89a3-849ebc732447",
+			"thumb": "http://skounis.s3.amazonaws.com/mobile-apps/barebone-ionic/item-10-thumb.jpg",
+			"title": "Supreme Pizza",
+			"body": "Beef, ham, pepperoni, Italian sausage, onion, mushroom, pineapple, capsicum & peppers.",
+			"tags": ["pizza"],
+			"url" : "http://demo.morethanthemes.com/retailplus/commerce-default/node/14",
+			"currency": "£",
+			"price" : "17.00",
+			"pictures": [
+				"http://skounis.s3.amazonaws.com/mobile-apps/barebone-ionic/item-10-1.jpg"
+			]
+		}, {
+			"id": 11,
+			"guid": "b3119483-5125-4f6c-89a3-849ebc732447",
+			"thumb": "http://skounis.s3.amazonaws.com/mobile-apps/barebone-ionic/item-11-thumb.jpg",
+			"title": "Mixed Vegetable Salad with Lime Dressing",
+			"body": "This raw mixed vegetable salad takes the green leaves out of the mix and focuses more on the topping vegetables.",
+			"tags": ["raw", "vegetables"],
+			"url" : "http://demo.morethanthemes.com/retailplus/commerce-default/node/14",
+			"currency": "£",
+			"price" : "11.00",
+			"pictures": [
+				"http://skounis.s3.amazonaws.com/mobile-apps/barebone-ionic/item-11-1.jpg"
+			]
+		}, {
+			"id": 12,
+			"guid": "b3119483-5125-4f6c-89a3-849ebc732447",
+			"thumb": "http://skounis.s3.amazonaws.com/mobile-apps/barebone-ionic/item-12-thumb.jpg",
+			"title": "Lettuce Salad with Garlic Croutons",
+			"body": "This salad has a fresh crunch due to different kinds of lettuce, garlic croutons and nuts.",
+			"tags": ["lettuce", "croutons", "nuts"],
+			"url" : "http://demo.morethanthemes.com/retailplus/commerce-default/node/14",
+			"currency": "£",
+			"price" : "11.00",
+			"pictures": [
+				"http://skounis.s3.amazonaws.com/mobile-apps/barebone-ionic/item-12-1.jpg"
+			]
+		}
+	]
+}

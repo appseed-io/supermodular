@@ -1,0 +1,12 @@
+<ion-popover-view>
+	<ion-header-bar>
+		<h1 class="title">Select an option</h1>
+	</ion-header-bar>
+	<ion-content>
+		<ion-list>
+			<ion-item ng-repeat="option in options" ng-click="select(option)">
+				<p>{{option}}</p>
+			</ion-item>
+		</ion-list>
+	</ion-content>
+</ion-popover-view>

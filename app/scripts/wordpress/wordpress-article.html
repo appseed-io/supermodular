@@ -1,0 +1,15 @@
+<ion-view view-title="Article">
+	<ion-nav-buttons side="right">
+		<button class="button button-clear icon ion-ios-upload-outline" ng-click="vm.share()"></button>
+	</ion-nav-buttons>
+
+	<ion-content has-header="true">
+		<img ng-src="{{vm.article.image}}" />
+		<div class="content-inner">
+			<h1>{{vm.article.title}}</h1>
+			<div ng-bind-html="vm.article.content"></div>
+			<p class="postby">{{vm.article.author}} - {{vm.article.date}}</p>
+			<p class="categories">[{{vm.article.tags.join(", ")}}]</p>
+		</div>
+	</ion-content>
+</ion-view>
