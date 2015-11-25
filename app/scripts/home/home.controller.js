@@ -5,17 +5,16 @@
 		.module('supermodular.home')
 		.controller('HomeController', HomeController);
 
-	HomeController.$inject = ['menuItems', 'homeDataService', 'externalAppsService', '$cordovaEmailComposer', '$cordovaAppRate'];
+	HomeController.$inject = ['menuItems', 'homeDataService', 'externalAppsService', '$cordovaEmailComposer'];
 
 	/* @ngInject */
-	function HomeController(menuItems, homeDataService, externalAppsService, $cordovaEmailComposer, $cordovaAppRate) {
+	function HomeController(menuItems, homeDataService, externalAppsService, $cordovaEmailComposer) {
 		var vm = angular.extend(this, {
 			entries: menuItems,
 			phoneNumber: homeDataService.phoneNumber,
 			getDirections: getDirections,
 			sendEmail: sendEmail,
-			openFacebookPage: openFacebookPage,
-			rateThisAppNow: rateThisAppNow
+			openFacebookPage: openFacebookPage
 		});
 
 		function getDirections() {
@@ -38,8 +37,5 @@
 			externalAppsService.openExternalUrl(homeDataService.facebookPage);
 		}
 
-		function rateThisAppNow(){
-			$cordovaAppRate.promptForRating(true);
-		}
 	}
 })();
