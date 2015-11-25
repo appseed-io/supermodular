@@ -1,6 +1,6 @@
 {
   "name": "Supermodular",
-  "version": "2.11.0",
+  "version": "1.x.x",
   "private": true,
   "dependencies": {},
   "devDependencies": {
@@ -51,7 +51,7 @@
   "scripts": {
     "test": "grunt test",
     "//": "Uncomment the next line to enable post install script.",
-    "//": "There is always the option to run it manually.", 
+    "//": "There is always the option to run it manually.",
     "//": { "postinstall": "./install.sh" }
   },
   "cordovaPlatforms": [
@@ -75,26 +75,9 @@
       "locator": "https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin.git",
       "id": "nl.x-services.plugins.socialsharing"
     },
-    {
-      "locator": "https://github.com/keosuofficial/cordova-audio-stream-plugin.git",
-      "id": "com.keosu.cordova.stream"
-    },
     "cordova-plugin-network-information",
     "cordova-plugin-whitelist",
-    {
-      "locator": "https://github.com/pushandplay/cordova-plugin-apprate.git",
-      "id": "org.pushandplay.cordova.apprate"
-    },
-    {
-      "locator": "https://github.com/floatinghotpot/cordova-plugin-admob.git",
-      "id": "cordova-plugin-admob"
-    },
-    "cordova-plugin-camera",
     "cordova-plugin-transport-security",
-    {
-      "locator": "https://github.com/litehelpers/Cordova-sqlite-storage.git",
-      "id": "cordova-sqlite-storage"
-    },
     "org.apache.cordova.console"
   ]
 }
