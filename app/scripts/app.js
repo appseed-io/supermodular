@@ -12,6 +12,7 @@ angular.module('starter', [
 	'ionic.service.push',
 	'supermodular.common',
 	'supermodular.home',
+	'supermodular.map',
 	'supermodular.wordpress',
 	'supermodular.menu',
 	'supermodular.elements',

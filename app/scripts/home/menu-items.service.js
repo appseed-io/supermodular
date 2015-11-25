@@ -21,6 +21,10 @@
 			title: 'Elements',
 			path: 'elements',
 			icon: 'ion-android-checkbox-outline'
+		}, {
+			title: 'Map',
+			path: 'map',
+			icon: 'ion-map'
 		}];
 
 		return data;
