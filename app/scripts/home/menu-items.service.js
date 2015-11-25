@@ -12,15 +12,15 @@
 		var data = [{
 			title: 'PopOver menu',
 			path: 'popover-menu',
-			icon: 'ion-speakerphone'
+			icon: 'ion-ios-arrow-down'
 		}, {
 			title: 'Wordpress',
 			path: 'wordpress-articles',
-			icon: 'ion-android-cart'
+			icon: 'ion-social-wordpress'
 		}, {
 			title: 'Elements',
 			path: 'elements',
-			icon: 'ion-images'
+			icon: 'ion-android-checkbox-outline'
 		}];
 
 		return data;
