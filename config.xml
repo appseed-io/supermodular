@@ -50,6 +50,6 @@
   <preference name="UIWebViewBounce" value="false"/>
   <preference name="DisallowOverscroll" value="true"/>
   <preference name="BackupWebStorage" value="none"/>
-  <engine name="ios" spec="^3.9.1"/>
+  <engine name="ios" spec="^3.9.2"/>
   <plugin name="de.appplant.cordova.plugin.email-composer" spec="https://github.com/katzer/cordova-plugin-email-composer.git"/>
 </widget>
