@@ -1,6 +1,8 @@
 
 # Supermodular
-A super modular Ionic starter application
+A super modular Ionic starter application.
+
+* Project's Home: https://github.com/skounis/supermodular
 
 ## Dependecies, Run and Build
 
