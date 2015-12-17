@@ -32,6 +32,7 @@ ionic state restore
 # cordova plugin add cordova-plugin-inappbrowser
 # cordova plugin add cordova-plugin-geolocation
 # cordova plugin add https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin.git
+# cordova plugin add de.appplant.cordova.plugin.email-composer
 # cordova plugin add cordova-plugin-network-information
 # cordova plugin add cordova-plugin-whitelist
 # cordova plugin add cordova-plugin-transport-security
