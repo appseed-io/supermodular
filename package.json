@@ -58,18 +58,10 @@
     "ios"
   ],
   "cordovaPlugins": [
-    "org.apache.cordova.device",
-    "org.apache.cordova.console",
+    "cordova-plugin-device",
+    "cordova-plugin-console",
     "com.ionic.keyboard",
-    "org.apache.cordova.inappbrowser",
-    {
-      "locator": "https://github.com/phonegap-build/PushPlugin.git",
-      "id": "com.phonegap.plugins.PushPlugin"
-    },
-    {
-      "locator": "https://github.com/katzer/cordova-plugin-email-composer.git",
-      "id": "de.appplant.cordova.plugin.email-composer"
-    },
+    "cordova-plugin-inappbrowser",
     "cordova-plugin-geolocation",
     {
       "locator": "https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin.git",
@@ -77,7 +69,6 @@
     },
     "cordova-plugin-network-information",
     "cordova-plugin-whitelist",
-    "cordova-plugin-transport-security",
-    "org.apache.cordova.console"
+    "cordova-plugin-transport-security"
   ]
 }
