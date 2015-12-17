@@ -13,6 +13,10 @@
   <access launch-external="yes" origin="mailto:*"/>
   <access launch-external="yes" origin="maps:*"/>
   <access launch-external="yes" origin="geo:*"/>
+  <platform name="android">
+    <preference name="android-minSdkVersion" value="14"/>
+    <preference name="android-targetSdkVersion" value="22"/>
+  </platform>
   <platform name="ios">
     <icon height="57" src="resources/ios/icons/icon.png" width="57"/>
     <icon height="114" src="resources/ios/icons/icon@2x.png" width="114"/>
