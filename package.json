@@ -67,6 +67,10 @@
       "locator": "https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin.git",
       "id": "nl.x-services.plugins.socialsharing"
     },
+    {
+      "locator": "https://github.com/katzer/cordova-plugin-email-composer.git",
+      "id": "de.appplant.cordova.plugin.email-composer"
+    },
     "cordova-plugin-network-information",
     "cordova-plugin-whitelist",
     "cordova-plugin-transport-security"
