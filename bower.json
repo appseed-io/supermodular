@@ -1,6 +1,6 @@
 {
   "name": "Supermodular",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "dependencies": {
     "ionic": "~1.1.1",
     "angular-websocket": "~1.0.9",
