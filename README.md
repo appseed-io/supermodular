@@ -10,15 +10,12 @@ A super modular Ionic starter application.
 
 Run `npm install` to install all needed dependencies.
 
-**Note: Windows users** should remove the following line under `scripts` in package.json file:
+### Install Plugins and Javascript dependencies
+#### Linux/MacOX
+Run `./install.sh` to install all needed plugins and dependencies
 
-``"postinstall": "./install.sh"``
-
-and, then, run `npm install`.
-
-### Install Javascript dependencies
-
-Run `bower install` to install all needed dependencies
+#### Windows Users
+Similarly, Windows users should run `./install.bat`.
 
 ### Run the app
 Use `grunt serve -l` to run the app in browser and watch for changes in code
