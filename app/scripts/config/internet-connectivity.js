@@ -35,10 +35,26 @@
 				};
 
 				function getNetworkStatus() {
+
+					// On Android and when only the 3G interface is on
+					// the return connection type is `unknown` even the device is online.
+					// To work around this we will assume that only Connection.NONE
+					// is declaring an offline device. Which is returned when data are
+					// disabled.
+
 					var isPluginAvailable = !!navigator.connection;
 
 					if (isPluginAvailable) {
-						return $cordovaNetwork.isOnline();
+							var networkState = JSON.stringify(navigator.connection); //.type
+							console.log('Internet connectivity chech. NetworkState: ' + networkState);
+
+							// HACK: this is a temporary hack due to Android 3G related issue
+							//       described above.
+							if (navigator.connection.type.toLowerCase() == 'unknown'){
+								return true;
+							}else {
+								return $cordovaNetwork.isOnline();
+							}
 					}
 
 					return navigator.onLine;

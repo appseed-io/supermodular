@@ -48,6 +48,9 @@
   <feature name="InAppBrowser">
     <param name="ios-package" value="CDVInAppBrowser"/>
   </feature>
+  <feature name="NetworkStatus">
+    <param name="android-package" value="org.apache.cordova.NetworkManager" />
+  </feature>
   <preference name="SplashScreen" value="screen"/>
   <preference name="SplashScreenDelay" value="3000"/>
   <preference name="webviewbounce" value="false"/>
