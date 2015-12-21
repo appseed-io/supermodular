@@ -9,16 +9,8 @@ mkdir www
 bower install
 
 ::
-:: Add target platform
-::
-:: Comment out the platform(s) your system supports
-::
-grunt platform:add:ios
-:: grunt platform:add:android
-
-::
 :: Install cordova plugins
-:: There quickest option is to ask from Ionic
+:: The quickest option is to ask from Ionic
 :: to restore the state of the app.
 :: https://github.com/driftyco/ionic-cli::ionic-state-restore
 :: If this process fails comment this line and uncomment the
@@ -36,6 +28,14 @@ ionic state restore
 :: cordova plugin add cordova-plugin-network-information
 :: cordova plugin add cordova-plugin-whitelist
 :: cordova plugin add cordova-plugin-transport-security
+
+::
+:: Add target platform
+::
+:: Comment out the platform(s) your system supports
+::
+grunt platform:add:ios
+:: grunt platform:add:android
 
 ::
 :: Build the  project and generate the cordova directory (www)

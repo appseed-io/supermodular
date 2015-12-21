@@ -56,9 +56,7 @@
     "//": { "postinstall": "./install.sh" },
     "//": { "postinstall": "./install.bat" }
   },
-  "cordovaPlatforms": [
-    "ios"
-  ],
+  "cordovaPlatforms": [],
   "cordovaPlugins": [
     "cordova-plugin-device",
     "cordova-plugin-console",
