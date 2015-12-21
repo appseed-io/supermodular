@@ -15,7 +15,7 @@ Run `npm install` to install all needed dependencies.
 Run `./install.sh` to install all needed plugins and dependencies
 
 #### Windows Users
-Similarly, Windows users should run `./install.bat`.
+Similarly, Windows users should run `install.bat`.
 
 ### Run the app
 Use `grunt serve -l` to run the app in browser and watch for changes in code
