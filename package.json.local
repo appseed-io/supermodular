@@ -1,0 +1,78 @@
+{
+  "name": "Supermodular",
+  "version": "1.1.0",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "cordova": "^5.4.1",
+    "elementtree": "0.1.6",
+    "glob": "~4.3.5",
+    "grunt": "~0.4.5",
+    "grunt-autoprefixer": "~2.2.0",
+    "grunt-concurrent": "1.0.0",
+    "grunt-contrib-clean": "~0.6.0",
+    "grunt-contrib-concat": "~0.5.0",
+    "grunt-contrib-connect": "~0.9.0",
+    "grunt-contrib-copy": "~0.7.0",
+    "grunt-contrib-cssmin": "~0.11.0",
+    "grunt-contrib-htmlmin": "~0.3.0",
+    "grunt-contrib-jshint": "~0.11.0",
+    "grunt-contrib-sass": "^0.9.2",
+    "grunt-contrib-uglify": "~0.7.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-include-source": "^0.5.1",
+    "grunt-karma": "~0.12.1",
+    "grunt-newer": "~1.1.0",
+    "grunt-ng-annotate": "~0.9.2",
+    "grunt-ng-constant": "^1.0.0",
+    "grunt-usemin": "~3.0.0",
+    "grunt-wiredep": "^2.0.0",
+    "ionic": "^1.7.12",
+    "jshint-stylish": "~1.0.0",
+    "karma": "~0.13.15",
+    "karma-chai": "~0.1.0",
+    "karma-chrome-launcher": "~0.2.2",
+    "karma-coverage": "~0.5.3",
+    "karma-mocha": "~0.2.1",
+    "karma-phantomjs-launcher": "~0.2.1",
+    "load-grunt-tasks": "~3.1.0",
+    "lodash": "~3.10.1",
+    "mkdirp": "~0.5.0",
+    "ncp": "~1.0.1",
+    "orchestrator": "~0.3.7",
+    "plist": "^1.2.0",
+    "ripple-emulator": "~0.9.24",
+    "time-grunt": "~1.0.0",
+    "win-spawn": "^2.0.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "grunt test",
+    "//": "Post installation.",
+    "//": "Uncomment the next line to enable post install script.",
+    "//": "There is always the option to run it manually.",
+    "//": { "postinstall": "./install.sh" },
+    "//": { "postinstall": "./install.bat" }
+  },
+  "cordovaPlatforms": [],
+  "cordovaPlugins": [
+    "cordova-plugin-device",
+    "cordova-plugin-console",
+    "com.ionic.keyboard",
+    "cordova-plugin-inappbrowser",
+    "cordova-plugin-geolocation",
+    {
+      "locator": "https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin.git",
+      "id": "nl.x-services.plugins.socialsharing"
+    },
+    {
+      "locator": "https://github.com/katzer/cordova-plugin-email-composer.git",
+      "id": "de.appplant.cordova.plugin.email-composer"
+    },
+    "cordova-plugin-network-information",
+    "cordova-plugin-whitelist",
+    "cordova-plugin-transport-security"
+  ]
+}
