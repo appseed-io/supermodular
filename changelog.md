@@ -1,5 +1,10 @@
 # Changelog
 ```
+1.2 - December 22, 2015
+- Downgrade Cordova iOS to 3.9.2 so there is no conflict with the plugins used
+- Improved installation process
+- Copy of package.json for the replacement of the original one when needed
+
 1.1 - December 17, 2015
 - Fix on ConnectionType always returning Connection.UNKNOWN (Android)
 - Ionic update to v1.1.1
