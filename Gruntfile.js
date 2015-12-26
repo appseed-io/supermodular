@@ -210,7 +210,7 @@ module.exports = function(grunt) {
 			app: {
 				src: ['<%= yeoman.app %>/index.html'],
 				ignorePath: /\.\.\//,
-				exclude: ['app/bower_components/ionic/css/ionic.css', /jquery/, /bower_components\/bootstrap/]
+				exclude: ['app/bower_components/ionic/release/css/ionic.css', /jquery/, /bower_components\/bootstrap/]
 			}
 		},
 		sass: { // Task
