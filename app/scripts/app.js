@@ -17,6 +17,7 @@ angular.module('starter', [
 	'supermodular.menu',
 	'supermodular.elements',
 	'supermodular.popover-menu',
+	'supermodular.native-scrolling',
 	'gMaps',
 	'ngCordova'
 ])
