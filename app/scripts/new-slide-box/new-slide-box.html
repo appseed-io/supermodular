@@ -1,0 +1,9 @@
+<ion-view view-title="New slide box">
+	<ion-content>
+		<ion-slides options="vm.options">
+			<ion-slide-page ng-repeat="item in vm.items">
+				<img ng-src="{{item.image}}">
+			</ion-slide-page>
+		</ion-slides>
+	</ion-content>
+</ion-view>
