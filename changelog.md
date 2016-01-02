@@ -1,5 +1,10 @@
 # Changelog
 ```
+2.0 - December 31, 2015
+- Ionic update to v1.2.1
+- New module demonstrating Native Scrolling
+- New module demonstrating New Slide Box
+
 1.2 - December 22, 2015
 - Downgrade Cordova iOS to 3.9.2 so there is no conflict with the plugins used
 - Improved installation process
