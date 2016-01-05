@@ -89,11 +89,12 @@ In case that the required Cordova plugins are not installed while installing Nod
 * **cordova-plugin-whitelist** - This plugin implements a whitelist policy for navigating the application webview on Cordova 4.0
 * **cordova-plugin-transport-security** - Cordova / PhoneGap Plugin to allow 'Arbitrary Loads' by adding a declaration to the Info.plist file to bypass the iOS 9 App Transport Security
 
-## Naming convention for versions
-Version:
-1. **1.x**: On `1.1-1.x` branch, based on 1.1 version of Ionic framework
-2. **2.x**: On `2.1-2.x` branch, based on 1.2 version of Ionic framework
-3. **3.x**: On `3.1-3.x` branch, based on 1.3 version of Ionic framework
+## Branches naming convention
+Each branch is related to the Ionic framework version the source code is based on. Currently, there are the following branches:
+1. `master`: Main development source code
+2. `1.1-1.x`: Source code maintenance based on Ionic 1.1.x
+
+The next branch will be `2.1-2.x` and will be based on Ionic 1.2.x as it has been lately announced on [Official Ionic Blog](http://blog.ionic.io/announcing-ionic-1-2/).
 
 ## Credits
 
