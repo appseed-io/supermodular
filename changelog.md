@@ -1,7 +1,7 @@
 # Changelog
 ```
 2.0 - December 31, 2015
-- Ionic update to v1.2.1
+- Ionic update to v1.2.1 as it has been lately announced on Official Ionic Blog (http://blog.ionic.io/announcing-ionic-1-2/).
 - New module demonstrating Native Scrolling
 - New module demonstrating New Slide Box
 

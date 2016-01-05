@@ -94,8 +94,6 @@ Each branch is related to the Ionic framework version the source code is based o
 1. `master`: Main development source code
 2. `1.1-1.x`: Source code maintenance based on Ionic 1.1.x
 
-The next branch will be `2.1-2.x` and will be based on Ionic 1.2.x as it has been lately announced on [Official Ionic Blog](http://blog.ionic.io/announcing-ionic-1-2/).
-
 ## Credits
 
 * [Yeoman](http://yeoman.io/)
