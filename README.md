@@ -1,5 +1,5 @@
 
-# Supermodular
+# Supermodular Ionic
 A super modular Ionic starter application.
 
 * Project's Home: https://github.com/skounis/supermodular
