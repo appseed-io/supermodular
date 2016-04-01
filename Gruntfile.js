@@ -330,6 +330,12 @@ module.exports = function(grunt) {
 				cwd: '.temp',
 				dest: '<%= yeoman.dist %>/',
 				src: '**/*'
+			},
+			misc: {
+				expand: true,
+				cwd: 'misc',
+				dest: '<%= yeoman.dist %>/misc',
+				src: ['**/*', '!assets/**', '!**/*.jpg', '!**/*.psd']
 			}
 		},
 
@@ -566,7 +572,8 @@ module.exports = function(grunt) {
 		'concurrent:server',
 		'autoprefixer',
 		'newer:copy:app',
-		'newer:copy:tmp'
+		'newer:copy:tmp',
+		'newer:copy:misc'
 	]);
 
 
