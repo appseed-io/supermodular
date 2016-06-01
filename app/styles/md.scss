@@ -1,0 +1,20 @@
+.item-md-toggle {
+	md-switch {
+		display: inline-block;
+		position: absolute;
+		right: 16px;
+		top: 16px;
+		margin: 0;
+	}
+}
+
+.item-md-checkbox {
+	md-checkbox {
+		margin: 0;
+	}
+}
+
+.item-md-range {
+	padding-top: 0;
+	padding-bottom: 0;
+}

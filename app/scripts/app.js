@@ -7,6 +7,7 @@
 angular.module('starter', [
 	'ionic',
 	'ionic.service.core',
+	'ngMaterial',
 	'config',
 	'ionic.service.core',
 	'ionic.service.push',

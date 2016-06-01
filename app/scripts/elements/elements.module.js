@@ -144,6 +144,14 @@
 							templateUrl: 'scripts/elements/tabs-striped.html'
 						}
 					}
-				});
+				})
+				.state('app.elements-md-form', {
+					url: '/elements-md-form',
+					views: {
+						'menuContent': {
+							templateUrl: 'scripts/elements/form-md.html'
+						}
+					}
+				});;
 		});
 })();
