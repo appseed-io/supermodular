@@ -4,6 +4,9 @@ A super modular Ionic starter application.
 
 * Project's Home: https://github.com/skounis/supermodular
 
+> Are you interesing in **Ionic 2**? 
+> * Check our [Supermodular 2](https://github.com/skounis/supermodular2) starter kit
+
 ## Dependecies, Run and Build
 
 ### Install NodeJS dependencies
